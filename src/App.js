@@ -9,8 +9,6 @@ class App extends Component {
       <div>
         <h1>My First React App called Ratings!</h1>
         <Products />
-        <Products />
-        <Products />
         <Button>Default</Button>
       </div>
     );
