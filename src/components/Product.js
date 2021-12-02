@@ -3,6 +3,7 @@ import Rating from "./Rating";
 import Modal from "react-responsive-modal";
 
 class Product extends Component {
+  
   constructor(props) {
     super(props);
   }
