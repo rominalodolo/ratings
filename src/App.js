@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import Products from './Products';
+import React, { Component } from "react";
+import Products from "./Products";
 
 class App extends Component {
-  render() {        
+  render() {
     return (
       <div>
-        <Products />        
+        <Products />
       </div>
     );
   }
