@@ -3,7 +3,7 @@ import Rating from "./Rating";
 import Modal from "react-responsive-modal";
 
 class Product extends Component {
-  
+
   constructor(props) {
     super(props);
   }
@@ -17,6 +17,7 @@ class Product extends Component {
             height={64}
             className="mr-3"
             src={this.props.data.imageUrl}
+            alt="Portrait"
           />
           <Modal.Body>
             <h5>{this.props.data.productName}</h5>
