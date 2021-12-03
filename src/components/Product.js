@@ -11,7 +11,7 @@ class Product extends Component {
     return (
       <div>
         <Media>
-          <img
+          <image
             width={64}
             height={64}
             className="mr-3"
