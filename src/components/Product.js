@@ -1,10 +1,8 @@
 import React, { Component } from "react";
 import Rating from "./Rating";
-// import Modal from "react-responsive-modal";
-import { Modal } from 'react-bootstrap';
+import { Media } from "react-bootstrap";
 
 class Product extends Component {
-
   constructor(props) {
     super(props);
   }
@@ -12,7 +10,7 @@ class Product extends Component {
   render() {
     return (
       <div>
-        <Modal>
+        <Media>
           <img
             width={64}
             height={64}
@@ -20,7 +18,7 @@ class Product extends Component {
             src={this.props.data.imageUrl}
             alt="Portrait"
           />
-          <Modal.Body>
+          <Media.Body>
             <h5>{this.props.data.productName}</h5>
             {this.props.data.releasedDate}
             <Rating
@@ -28,8 +26,8 @@ class Product extends Component {
               numOfReviews={this.props.data.numOfReviews}
             />
             <p>{this.props.data.description}</p>
-          </Modal.Body>
-        </Modal>
+          </Media.Body>
+        </Media>
       </div>
     );
   }
