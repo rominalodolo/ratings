@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Products from "./Products";
+import Products from "./components/Products";
 import { Button } from 'react-bootstrap';
 
 

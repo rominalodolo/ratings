@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Rating from "./Rating";
-import Modal from "react-responsive-modal";
+// import Modal from "react-responsive-modal";
+import { Modal } from 'react-bootstrap';
 
 class Product extends Component {
 
