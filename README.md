@@ -1,10 +1,10 @@
-# Getting Started with Create React App
+# Product Listing Application
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Chapters 1 - 5 
 
-In the project directory, you can run:
+From the Beginning React Book by Greg Lim, 2017. 
 
 ### `npm start`
 

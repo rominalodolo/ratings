@@ -13,7 +13,7 @@ class Product extends Component {
   render() {
     return (
       <div>
-        <Modal >
+        <Modal>
           <image
             width={64}
             height={64}
