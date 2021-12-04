@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Product from "./Product.js";
 
-
 class Products extends Component {
   products;
 
@@ -57,15 +56,25 @@ class Products extends Component {
 }
 
 export default Products;
-/**
-        {listProducts.length > 0 && 
-          <ul>{listProducts}</ul>     
-        }
-        {listProducts.length == 0 && 
-          <ul>No Products to display</ul>     
-        }   
-            <div>
-     
-      </div>
- * 
- */
+
+
+// CHAPTER 2: CREATING AND USING COMPONENTS
+  // create ProductsComponent that retrieves product data from an array and later renders that data on the page
+
+// import React, { Component } from "react";
+
+// class Products extends Component {
+//   render() {
+//     const products = ["Learning React", "Pro React", "Beginning React"];
+//     const listProducts = products.map((product) => (
+//       <li key={product.toString()}>{product}</li>
+//     ));
+//     return (
+//       <div>
+//         <ul>{listProducts}</ul>
+//       </div>
+//     );
+//   }
+// }
+
+// export default Products;
