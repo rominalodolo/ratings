@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div className='App'>
         <h1>My First React App: Product Listing</h1>
-        <Button>Click Me</Button>
+        <Button variant="primary" disabled>Click Me</Button>
         <Rating rating="1" />
         <Rating rating="2" />
         <Rating rating="3" />
