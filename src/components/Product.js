@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import React, { Component } from 'react';
 import Rating from './Rating';
-import { Media } from 'react-bootstrap';
+import { media } from 'react-bootstrap';
 
 class Product extends Component {
 
@@ -13,7 +13,7 @@ class Product extends Component {
   render() { 
     return (
       <div>                
-        <Media>
+        <media>
             <img 
                 width={64} 
                 height={64} 
@@ -27,7 +27,7 @@ class Product extends Component {
                 <Rating rating={this.props.data.rating} numOfReviews={this.props.data.numOfReviews}/>
                 <p>{this.props.data.description}</p>
             </media-body>
-        </Media>                                                                                                                                   
+        </media>                                                                                                                                   
       </div>
     );
   }
