@@ -8,7 +8,8 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        <h1>My First React App: Product Listing</h1>
+        <h1>My First React App: Product Listing</h1> 
+        {"\n"}
         <Button variant="primary" disabled>Click Me</Button>
         {"\n"}
         {/* <Rating rating="1" />
