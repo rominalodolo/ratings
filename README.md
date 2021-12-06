@@ -5,3 +5,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Chapters 1 - 5 
 
 From the Beginning React Book by Greg Lim, 2017. 
+
+### Screen Shot of Application
+![A screen grab of the final version of the working Ratings program](ratings/productlistingapp.jpeg "Product listing")
+
+Last edit December 2021
