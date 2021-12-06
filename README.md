@@ -7,6 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 From the Beginning React Book by Greg Lim, 2017. 
 
 ### Screen Shot of Product Listing Application
-![A screen grab of the final version of the working Ratings program](ratings/productlistingapp.jpeg "Product Listing")
+![productlistingapp](https://user-images.githubusercontent.com/83961643/144835260-84a28c70-5743-46f1-9b74-9dc1b31524c8.jpeg)
+
 
 Last edit December 2021
