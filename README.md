@@ -16,3 +16,5 @@ Bootstrap 4
 
 
 Last edit December 2021
+
+Deleting package lock - 21 feb 2025
